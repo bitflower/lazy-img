@@ -2,9 +2,9 @@
 
 # bf-img
 
-`bf-img` is a functional Stencil component for loading `img` tags lazily. It it heavily inspired by Justin Willis' `st-img`.
+`bf-img` is a functional Stencil component for loading `img` tags lazily. It it heavily inspired by [Justin Willis' `st-img`]([https://www.google.com](https://github.com/jgw96/st-img)).
 
-
+[co-img-demo](https://raw.githubusercontent.com/bitflower/lazy-img/master/co-img.gif)
 
 ## Getting Started
 
@@ -50,9 +50,9 @@ npm run build
 ## Usage
 
 ```jsx
-        <p>Basically just text.</p>
+<p>Basically just text.</p>
 
-        <BfImg src='https://media.giphy.com/media/l0Iy1B7kYsicYAOU8/giphy.gif' />
+<BfImg src='https://media.giphy.com/media/l0Iy1B7kYsicYAOU8/giphy.gif' />
 
-        <p>Basically just text.</p>
+<p>Basically just text.</p>
 ```
