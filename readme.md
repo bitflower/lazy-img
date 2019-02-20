@@ -2,7 +2,7 @@
 
 # LazyImg
 
-`LazyImg` is a functional Stencil component for loading `img` tags lazily. It it heavily inspired by [Justin Willis' `st-img`]([https://www.google.com](https://github.com/jgw96/st-img)).
+`LazyImg` is a functional Stencil component for loading `img` tags lazily. It it heavily inspired by [Justin Willis' `st-img`](https://github.com/jgw96/st-img).
 
 [co-img-demo](https://raw.githubusercontent.com/bitflower/lazy-img/master/co-img.gif)
 
