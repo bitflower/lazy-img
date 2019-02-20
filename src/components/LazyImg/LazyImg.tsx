@@ -1,6 +1,6 @@
 import { FunctionalComponent } from '@stencil/core';
 
-export const BfImg: FunctionalComponent<{ src: string }> = (props: any): any => {
+export const LazyImg: FunctionalComponent<{ src: string }> = (props: any): any => {
 
     let io: IntersectionObserver;
     let img: HTMLElement;

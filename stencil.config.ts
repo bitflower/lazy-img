@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'bf-img',
+  namespace: 'lazyimg',
   outputTargets: [
     { type: 'dist' },
     { type: 'docs' },

@@ -1,5 +1,5 @@
 import { Component } from '@stencil/core';
-import { BfImg } from '../bf-img/bf-img';
+import { LazyImg } from '../LazyImg/LazyImg';
 
 @Component({
   tag: 'my-component',
@@ -43,7 +43,7 @@ export class MyComponent {
         <p>Basically just text.</p>
         <p>Basically just text.</p>
 
-        <BfImg src='https://media.giphy.com/media/l0Iy1B7kYsicYAOU8/giphy.gif' />
+        <LazyImg src='https://media.giphy.com/media/l0Iy1B7kYsicYAOU8/giphy.gif' />
 
         <p>Basically just text.</p>
         <p>Basically just text.</p>
@@ -61,7 +61,7 @@ export class MyComponent {
         <p>Basically just text.</p>
         <p>Basically just text.</p>
 
-        <BfImg src='https://media.giphy.com/media/l0IyqfbLNltg5py4U/giphy.gif' />
+        <LazyImg src='https://media.giphy.com/media/l0IyqfbLNltg5py4U/giphy.gif' />
 
       </div>
     )
